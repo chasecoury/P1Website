@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var theLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"; // Expanded set of letters
-    var ctnt = "<a href='Directory/directory.html' class='hoverable-text'>In poetry, the number of beginnings so far exceeds the number of endings that we cannot even conceive of it. Not every poem is finished—one poem is abandoned, another catches fire and is carried away by the wind, which may be an ending, but it is the ending of a poem without an end. </a>"; // Your text goes here
+    var ctnt = "<a href='/Directory/directory.html' class='hoverable-text'>In poetry, the number of beginnings so far exceeds the number of endings that we cannot even conceive of it. Not every poem is finished—one poem is abandoned, another catches fire and is carried away by the wind, which may be an ending, but it is the ending of a poem without an end. </a>"; // Your text goes here
     var speed = 1; // ms per frame
     var increment = 2; // frames per step. Must be >2
     
