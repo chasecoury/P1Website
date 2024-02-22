@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: scotch-display;
+}
+
+.container {
+    text-align: center;
+}
+
+.typewriter-line {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.typewriter-line a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-right: 2px solid transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    font-size: 20px;
+}
+
+.typewriter-line a::after {
+    content: '|';
+    position: absolute;
+    top: 0;
+    right: -7px;
+    opacity: 1;
+    animation: cursor-blink 1.2s infinite;
+}
+
+@keyframes cursor-blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.typewriter-line a:hover {
+    color: rgb(56, 82, 251);
+    transition: color 0.3s;
+}
+

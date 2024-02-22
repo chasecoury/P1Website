@@ -1,0 +1,57 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: scotch-display;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#fading-text {
+  max-width: 800px;
+  text-align: left;
+  opacity: 0;
+  animation: fadeIn 3s ease forwards;
+}
+
+.chapters-link {
+  text-decoration: none;
+  font-family: scotch-display;
+  font-weight: 900;
+  position: absolute;
+  bottom: 40px;
+  right: 220px;
+  opacity: 0;
+  animation: fadeIn 3s ease forwards;
+  color: black;
+
+}
+
+.chapters-link:hover{
+  color: rgb(56, 82, 251);
+  transition: color 0.5s;
+}
+
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+  animation: fadeIn 3s ease forwards;
+}
+
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

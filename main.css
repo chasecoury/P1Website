@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    background-color: black;
+    }
+    
+    
+    #container {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 80pt;
+    top: 0;
+    bottom: 0;
+    
+    
+    filter: url(#threshold) blur(0px);
+    }
+    
+    
+    #text1,
+    #text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    
+    
+    font-family: "scotch-display", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60pt;
+    color: rgb(205, 205, 205);
+    
+    
+    text-align: center;
+    
+    
+    user-select: none;
+    }
+
+
+    

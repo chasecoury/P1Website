@@ -1,0 +1,46 @@
+html,body{
+  font-family: scotch-display;
+  font-weight: 400;
+}
+#output{
+  /* The command I know best. */
+  color:#000000;
+  font-size:25px;
+  position: fixed;
+  top: 70%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  line-height: 200%;
+}
+
+.hoverable-text {
+  text-decoration: none; /* Remove underline */
+  color: rgb(0, 0, 0); /* Default text color */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.hoverable-text:hover {
+  color: rgb(56, 82, 251); /* Change text color on hover */
+}
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes fade-in {
+  from {
+      background-color: black;
+  }
+  to {
+      background-color: white;
+  }
+}
+
+
+
