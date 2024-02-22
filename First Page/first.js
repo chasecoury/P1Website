@@ -1,6 +1,6 @@
 $(document).ready(function(){
   var theLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"; // Expanded set of letters
-  var ctnt = "<a href='../Second Page/second.html' class='hoverable-text'>In life, the number of beginnings is exactly equal to the number of endings: no one has yet to begin a life who will not end it.</a>"; // Your text goes here
+  var ctnt = "<a href='../SecondPage/second.html' class='hoverable-text'>In life, the number of beginnings is exactly equal to the number of endings: no one has yet to begin a life who will not end it.</a>"; // Your text goes here
   var speed = 6; // ms per frame
   var increment = 2; // frames per step. Must be >2
   
